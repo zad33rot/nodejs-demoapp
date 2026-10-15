@@ -19,7 +19,6 @@ router.get('/api/weather/:lat/:long', async function (req, res, next) {
   const long = req.params.long
   const lat = req.params.lat
   
-  
   try {
     // Call external OpenWeather API
     const weatherResp = await axios.get(
