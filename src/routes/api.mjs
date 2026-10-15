@@ -18,8 +18,10 @@ router.get('/api/weather/:lat/:long', async function (req, res, next) {
   const WEATHER_API_KEY = process.env.WEATHER_API_KEY || '123456'
   const long = req.params.long
   const lat = req.params.lat
-
-  try {
+  
+sdkjfhsduhfsdijf;odsi
+  
+  try 
     // Call external OpenWeather API
     const weatherResp = await axios.get(
       `https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${long}&appid=${WEATHER_API_KEY}`,
